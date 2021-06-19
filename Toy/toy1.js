@@ -10,17 +10,10 @@ function orderOfPresentation(N, K) {
   };
   for (let j = 0; j < K.length; j++) {
     const n = K[j];
-    console.log(n);
     used[n - 1] = 1;
-    console.log(used);
     const p = used.slice(0, n);
-    console.log(p);
     const len = p.filter((i) => i === 0).length;
-    console.log(len);
     res += len * fac(N - j - 1);
-    console.log("-------------------");
   }
   return res;
 }
-
-console.log(orderOfPresentation(5, [1, 3, 2, 4, 5]));
