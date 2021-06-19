@@ -12,3 +12,5 @@ const bubbleSort = function (arr) {
   }
   return arr;
 };
+
+// 11/12 solved
