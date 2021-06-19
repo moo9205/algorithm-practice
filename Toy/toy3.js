@@ -6,3 +6,5 @@ const isSubsetOf = function (base, sample) {
   }
   return true;
 };
+
+// solved 5/7
