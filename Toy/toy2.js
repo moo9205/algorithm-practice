@@ -8,5 +8,3 @@ let fibonacci = function (n) {
   };
   return aux(n);
 };
-
-console.log(fibonacci(4));
