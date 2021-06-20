@@ -15,6 +15,6 @@ function solution(arr) {
 // arr의 원소는 -10,000 이상 10,000 이하인 정수입니다.
 
 // 입출력 예
-// arr	return
+// arr	      return
 // [1,2,3,4]	2.5
-// [5,5]	5
+// [5,5]	    5
