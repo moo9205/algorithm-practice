@@ -12,12 +12,14 @@ function solution(num) {
     }
     count++;
     if (count >= 500) {
+      debugger;
       return -1;
     }
   }
   return count;
 }
 
+solution(16);
 // 문제 설명
 // 1937년 Collatz란 사람에 의해 제기된 이 추측은, 주어진 수가 1이 될때까지 다음 작업을 반복하면, 모든 수를 1로 만들 수 있다는 추측입니다.
 
